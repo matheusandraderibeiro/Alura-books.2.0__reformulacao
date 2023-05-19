@@ -19,11 +19,12 @@
     width: 100%;
 }
 
-.livro__bloco-img, .livro__bloco-descricao {
-    width: 50%;
+.livro__bloco-img {
+    width: 40%;
 }
 
 .livro__bloco-descricao {
+    width: 60%;
     margin-left: 10px;
 }
 
@@ -32,6 +33,13 @@
 }
 
 .livro__titulo {
+    text-align: start;
     font-size: 16px;
-    margin-bottom: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.livro__preco {
+    margin-top: 30px;
+    font-size: 20px;
 }
