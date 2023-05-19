@@ -3,10 +3,12 @@
 @import url(2°-banner-component.css);
 @import url(3°-categorias-component.css);
 @import url(4°-livros_component.css);
+@import url(5°-valorTotal-component.css);
+@import url(6°-rodape-component.css);
 
 :root {
     --branco: #ffffff;
-    --laranja: #fc6621;
+    --laranja: #ffa500;
     --amarelo: #eeff00;
     --azul-claro: #326589;
     --azul-escuro: #002f52;

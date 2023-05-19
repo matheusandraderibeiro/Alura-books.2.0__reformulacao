@@ -1,0 +1,14 @@
+.valor__total {
+    width: 100%;
+}
+
+.livros__disponiveis {
+    padding: 8px 3px;
+    background-color: var(--laranja);
+}
+
+.valor__total-descricao {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
