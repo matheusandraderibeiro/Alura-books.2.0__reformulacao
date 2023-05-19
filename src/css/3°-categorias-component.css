@@ -1,0 +1,25 @@
+.categorias {
+    padding: 8px;
+}
+
+.categorias__nav-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+}
+
+.categorias__nav-btn {
+    width: 360px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    background-color: var(--azul-claro);
+}
