@@ -26,34 +26,26 @@
             <section class="categorias">
                 <nav class="categorias__navegacao">
                     <ul class="categorias__nav-lista">
-                        <li class="categorias__nav-item"><button class="categorias__nav-btn">livros de front-end</button></li>
-                        <li class="categorias__nav-item"><button class="categorias__nav-btn">livros de front-end</button></li>
-                        <li class="categorias__nav-item"><button class="categorias__nav-btn">livros de dados</button></li>
-                        <li class="categorias__nav-item"><button class="categorias__nav-btn">livros disponíveis</button></li>
-                        <li class="categorias__nav-item"><button class="categorias__nav-btn">ordenar por preço</button></li>
+                        <li class="categorias__nav-item">
+                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_front-end" value="front-end">livros de front-end</button>
+                        </li>
+                        <li class="categorias__nav-item">
+                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_back-end" value="back-end">livros de back-end</button>
+                        </li>
+                        <li class="categorias__nav-item">
+                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_dados" value="dados">livros de dados</button>
+                        </li>
+                        <li class="categorias__nav-item">
+                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_disponiveis" value="disponivel">livros disponíveis</button>
+                        </li>
+                        <li class="categorias__nav-item">
+                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_preco">ordenar por preço</button>
+                        </li>
                     </ul>
                 </nav>
             </section>
 
-            <section class="livros">
-                <article class="livro">
-                    <section class="livro__conteudo">
-                        <div class="livro__bloco-img">
-                            <img class="livro__img" src="src/img/Cangaceiro-Javascript.png" alt="livro Cangaceiro JavaScript" >
-                        </div>
-
-                        <div class="livro__bloco-descricao">
-                            <h2 class="livro__titulo">Cangaceiro JavaScript: Uma aventura no sertão da programação</h2>
-                            <p class="livro__autor">Flávio Almeida</p>
-                            <p class="livro__preco">R$129,90</p>
-
-                            <div class="tags">
-                                <span class="tag">Front-end</span>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-            </section>
+            <section class="livros" id="livros"></section>
 
             <section class="valor__total">
                 <div class="livros__disponiveis">
@@ -70,5 +62,12 @@
             
             <img class="logo_M" src="src/img/logo_branca-pessoal.png" alt="logo pessoal do programador">
        </footer>
+
+       <script src="src/js/busca-elementos-da-API.js"></script>
+       <script src="src/js/vitrine-de-livros.js"></script>
+       <script src="src/js/desconto_metodo-map.js"></script>
+       <script src="src/js/categoria_metodo-filter.js"></script>
+       <script src="src/js/calcula-valor-total_metodo-reduce.js"></script>
+       <script src="src/js/ordenar-por-preco_metodo-sort.js"></script>
     </body>
 </html>

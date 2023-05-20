@@ -14,7 +14,7 @@
     align-items: center;
     padding: 5px;
     border-radius: 5px;
-    background-color: var(--amarelo);
+    background-color: var(--rosa);
 }
 
 .livro__conteudo {
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     width: 40%;
+    background-color: var(--branco);
 }
 
 .livro__bloco-descricao {
@@ -36,6 +37,7 @@
 
 .livro__img {
     width: 100%;
+    
 }
 
 .livro__titulo {
@@ -43,23 +45,32 @@
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
+    color: var(--branco);
 }
 
 .livro__autor {
     margin: 10px 5px 0 0;
     font-size: 18px;
+    color: var(--branco);
 }
 
 .livro__preco {
     margin: 7px 5px 13px 0;
     font-size: 16px;
+    color: var(--branco);
 }
 
 .tags {
-    width: 102px;
+    width: 104px;
     margin: 0 0 0 105px;
     padding: 3px 10px;
+    text-align: center;
+    border: 1px solid var(--branco);
     border-radius: 5px;
-    color: black;
-    background-color: white;
+    color: var(--branco);
+    background-color: var(--roxo-rosado);
+}
+
+.indisponivel {
+    opacity: 0.3;
 }

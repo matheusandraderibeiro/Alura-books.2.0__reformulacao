@@ -8,13 +8,12 @@
 @import url(6°-rodape-component.css);
 
 :root {
+    --rosa: #cd1c4d;
     --branco: #ffffff;
     --laranja: #ffa500;
-    --amarelo: #eeff00;
-    --azul-claro: #326589;
+    --roxo-claro: #583475;
     --azul-escuro: #002f52;
-    --cinza-claro: #9c9c9c;
-    --cinza-escuro: #858585;
+    --roxo-rosado: #852c75;
     --font-principal: "Poppins";
     --font-secundaria: "Josefin Sans";
 }
