@@ -21,11 +21,3 @@ function exibeValorTotalNaTela (somaTotal) {
         </div>
     `
 }
-/*
-function exibeValorTotalDeLivrosDisponiveis (somaTotal) {
-    valorTotal.inneHTML = `
-            <div class="livros__disponiveis">
-                <p class="valor__total-descricao">Todos os livros disponíveis por R$<span class="valor">${somaTotal}</p>
-            </div>
-    `
-}*/

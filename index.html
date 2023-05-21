@@ -11,9 +11,38 @@
     </head>
 
     <body>
-       <header class="cabecalho">
-            <h1><img src="src/img/Logo_com_legenda-1.png" alt="logo do Alura Books"></h1>
-       </header>
+        <header class="cabecalho">
+            <div class="container">
+                <input class="container__botao" id="menu" type="checkbox"/>
+                <label class="container__rotulo" for="menu"><span class="cabecalho__menu-hamburguer container__imagem"></span></label>
+
+                <ul class="categorias__nav-lista">
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_front-end" value="front-end">livros de front-end</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_back-end" value="back-end">livros de back-end</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_dados" value="dados">livros de dados</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_disponiveis" value="disponivel">livros disponíveis</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_preco">ordenar por preço</button>
+                    </li>
+                </ul>
+
+                <img class="cabecalho__logo" src="src/img/Logo.svg" alt="Logo Alura Books">
+            </div>
+
+            <div class="container">
+                <a class="container__link" href="#"><img src="src/img/Favoritos.svg" alt="icon coração"></a>
+                <a class="container__link" href="#"><img src="src/img/Compras.svg" alt="icon sacola"></a>
+                <a class="container__link" href="#"><img src="src/img/Usuario.svg" alt="icon perfil"></a>
+            </div>
+        </header>
 
        <main>
             <article class="banner__caixa">
@@ -22,28 +51,6 @@
 
                 <div class="banner"><img class="foto" src="src/img/Banner-1.png" alt="banner azul com algorismos"></div>
             </article>
-
-            <section class="categorias">
-                <nav class="categorias__navegacao">
-                    <ul class="categorias__nav-lista">
-                        <li class="categorias__nav-item">
-                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_front-end" value="front-end">livros de front-end</button>
-                        </li>
-                        <li class="categorias__nav-item">
-                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_back-end" value="back-end">livros de back-end</button>
-                        </li>
-                        <li class="categorias__nav-item">
-                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_dados" value="dados">livros de dados</button>
-                        </li>
-                        <li class="categorias__nav-item">
-                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_disponiveis" value="disponivel">livros disponíveis</button>
-                        </li>
-                        <li class="categorias__nav-item">
-                            <button class="btn categorias__nav-btn" href="#" id="filtrar_livros_preco">ordenar por preço</button>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
 
             <section class="livros" id="livros"></section>
 

@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap'); 
 @import url(1°-header-component.css);
 @import url(2°-banner-component.css);
-@import url(3°-categorias-component.css);
-@import url(4°-livros_component.css);
-@import url(5°-valorTotal-component.css);
-@import url(6°-rodape-component.css);
+@import url(3°-livros_component.css);
+@import url(4°-valorTotal-component.css);
+@import url(5°-rodape-component.css);
 
 :root {
     --rosa: #cd1c4d;
