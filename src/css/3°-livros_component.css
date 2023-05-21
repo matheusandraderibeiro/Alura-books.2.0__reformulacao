@@ -74,3 +74,48 @@
 .indisponivel {
     opacity: 0.3;
 }
+
+/*---------------------------------------------==================================================---------------------------------------------*/
+/*---------------------------------------------------= ***---RESPONSIVIDADE LIVROS---**** =---------------------------------------------------*/
+/*---------------------------------------------==================================================---------------------------------------------*/
+
+
+@media screen and (min-width: 844px) {
+    .livros {
+        justify-content: center;
+    }
+
+    .livro {
+        width: 670px;
+        height: 370px;
+        padding: 16px;
+    }
+
+    .livro__bloco-descricao {
+        position: relative;
+    }
+
+    .livro__titulo {
+        font-size: 30px;
+    }
+
+    .livro__autor {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .livro__preco {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .tags {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        width: 200px;
+        height: 40px;
+        padding: 6px;
+    }
+}

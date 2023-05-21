@@ -17,6 +17,7 @@
                 <label class="container__rotulo" for="menu"><span class="cabecalho__menu-hamburguer container__imagem"></span></label>
 
                 <ul class="categorias__nav-lista">
+                    <li class="categoria__titulo">Categorias</li>
                     <li class="categorias__nav-item">
                         <button class="btn categorias__btn" href="#" id="filtrar_livros_front-end" value="front-end">livros de front-end</button>
                     </li>
@@ -35,7 +36,35 @@
                 </ul>
 
                 <img class="cabecalho__logo" src="src/img/Logo.svg" alt="Logo Alura Books">
+                <img class="cabecalho__logo-legenda" src="src/img/Logo_com_legenda-2.svg" alt="Logo Alura Books">
             </div>
+
+            <ul class="opcoes">
+                <input class="opcoes__botao" id="opcoes__menu" type="checkbox" />
+                <label  class="opcoes__rotulo" for="opcoes__menu"><li class="opcoes__item">Categorias</li></label>
+
+                <ul class="categorias__nav-lista">
+                    <li class="categoria__titulo">Categorias</li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_front-end" value="front-end">livros de front-end</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_back-end" value="back-end">livros de back-end</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_dados" value="dados">livros de dados</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_disponiveis" value="disponivel">livros disponíveis</button>
+                    </li>
+                    <li class="categorias__nav-item">
+                        <button class="btn categorias__btn" href="#" id="filtrar_livros_preco">ordenar por preço</button>
+                    </li>
+                </ul>
+
+                <li class="opcoes__item">Favoritos</li>
+                <li class="opcoes__item">Minha Estante</li>
+            </ul>
 
             <div class="container">
                 <a class="container__link" href="#"><img src="src/img/Favoritos.svg" alt="icon coração"></a>
