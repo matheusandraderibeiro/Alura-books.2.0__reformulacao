@@ -92,12 +92,25 @@
     display: none;
 }
 
+.container__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.container__link-texto {
+    display: none;
+    color: var(--preto);
+}
+
 /*---------------------------------------------=================================================----------------------------------------------*/
 /*-------------------------------------------------= ***---RESPONSIVIDADE CABEÇALHO---**** =--------------------------------------------------*/
 /*---------------------------------------------=================================================----------------------------------------------*/
 
 @media screen and (min-width: 1024px) {
-    .cabecalho__menu-hamburguer, .container__rotulo, .cabecalho__logo, .opcoes__botao {
+    .cabecalho__menu-hamburguer, .container__rotulo, .cabecalho__logo, .opcoes__botao, .icon-coracao {
         display: none;
     }
 
@@ -134,4 +147,12 @@
         font-size: 20px;
     }
 
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1351px) {
+    .container__link-texto {
+        display: block;
+    }
 }
